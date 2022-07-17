@@ -1,5 +1,10 @@
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
+import MainContent from '../components/MainContent/MainContent';
 
 export default function Home() {
-  return <Layout>Home Page</Layout>;
+  return (
+    <Layout>
+      <MainContent title="main content" />
+    </Layout>
+  );
 }

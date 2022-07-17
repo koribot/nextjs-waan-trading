@@ -7,19 +7,15 @@ const Header = () => {
   return (
     <header className="flex justify-center bg-gray-50 drop-shadow-lg">
       <nav className="flex h-12 justify-between items-center w-nav-w">
-        <Link href="/">
-          <a className="text-lg font-bold">Waan Trading</a>
-        </Link>
+        <Link href="/">Waan Trading</Link>
         <div className="flex items-center justify-between w-40">
           <SearchOutlinedIcon className="cursor-pointer" />
           <Link href="/cart">
-            <a className="px-2">
-              <LocalMallOutlinedIcon />
-            </a>
+            <LocalMallOutlinedIcon />
           </Link>
           <p>|</p>
           <Link href="/login">
-            <a className="px-2 hover:text-sky-700">Login</a>
+            <a>Login </a>
           </Link>
         </div>
       </nav>
